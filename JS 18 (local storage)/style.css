@@ -1,0 +1,27 @@
+.card {
+    padding: 1em 1.5em; 
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: solid 2px grey;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.card-holder {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#text, #button {
+    padding: 1em 1.5em; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#button {
+    box-shadow: 4px 4px 4px 4px rgba(139, 43, 43, 0.5);
+    border: solid 4px rgb(155, 41, 41);
+}
+#text {
+    background-color: grey;
+    color: lavender;
+    font-weight: 800;
+}
